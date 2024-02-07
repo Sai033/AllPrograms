@@ -1,0 +1,1 @@
+{"uuid":"0f13935c-5d99-4a2f-a44a-1c437f126a2c","name":"TestNG.tc10.AfterMethod","children":["ae162bd7-0cb8-447b-9e4c-f5ae13302aec"],"description":"","befores":[],"afters":[{"name":"AfterMethod","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1706159020340,"stop":1706159020340}],"start":1706159020339,"stop":1706159020340}

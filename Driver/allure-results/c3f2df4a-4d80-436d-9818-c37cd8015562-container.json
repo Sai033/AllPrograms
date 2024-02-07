@@ -1,0 +1,1 @@
+{"uuid":"c3f2df4a-4d80-436d-9818-c37cd8015562","name":"TestNG.tc10.BeforeMethod","children":["ae162bd7-0cb8-447b-9e4c-f5ae13302aec"],"description":"","befores":[{"name":"BeforeMethod","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1706159020022,"stop":1706159020022}],"afters":[],"start":1706159020022,"stop":1706159020024}

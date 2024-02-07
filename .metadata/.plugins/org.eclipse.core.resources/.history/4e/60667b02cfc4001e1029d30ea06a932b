@@ -1,0 +1,15 @@
+package Driver;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class driver {
+	
+        static WebDriver d;
+		public driver() {
+			PageFactory.initElements(this.d, d);
+			
+			
+		}
+	}
+

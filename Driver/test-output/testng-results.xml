@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-31T11:17:51 IST" name="Default suite" finished-at="2024-01-31T11:17:51 IST" duration-ms="411">
+    <groups>
+    </groups>
+    <test started-at="2024-01-31T11:17:51 IST" name="Default test" finished-at="2024-01-31T11:17:51 IST" duration-ms="411">
+      <class name="TestNG.tc10">
+        <test-method is-config="true" signature="suite()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:50 IST" name="suite" finished-at="2024-01-31T11:17:51 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suite -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:51 IST" name="BeforeTest" finished-at="2024-01-31T11:17:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:51 IST" name="Beforeclass" finished-at="2024-01-31T11:17:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:51 IST" name="BeforeMethod" finished-at="2024-01-31T11:17:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="test()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:51 IST" name="test" finished-at="2024-01-31T11:17:51 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:51 IST" name="AfterMethod" finished-at="2024-01-31T11:17:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:51 IST" name="Afterclass" finished-at="2024-01-31T11:17:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:51 IST" name="AfterTest" finished-at="2024-01-31T11:17:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AterSuite()[pri:0, instance:TestNG.tc10@e57b96d]" started-at="2024-01-31T11:17:51 IST" name="AterSuite" finished-at="2024-01-31T11:17:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AterSuite -->
+      </class> <!-- TestNG.tc10 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
