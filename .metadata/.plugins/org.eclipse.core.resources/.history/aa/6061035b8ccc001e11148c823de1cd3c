@@ -1,0 +1,30 @@
+package Test;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+
+public class BaseClass {
+	static WebDriver d;
+	Methods m=new Methods();
+	@BeforeTest
+	public void driverLaunch() {
+		d=m.Browser();
+	}
+	@BeforeClass
+	public void login() {
+		d.get("https://smartgig-ess.infionicone.com");
+		
+	}
+	@AfterClass
+	public void logout() {
+		
+	}
+	
+	@AfterTest
+	public void closeDriver() {
+		d.close();
+	}
+}

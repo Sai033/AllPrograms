@@ -1,0 +1,18 @@
+package Driver;
+//TestClass1.java
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class TestClass1 {
+	
+ public static void main(String[] args) {
+	 WebDriver d = DriverUtils.getWebDriver();
+	 xpaths x=new xpaths();
+   System.out.println("a");
+   d.get("https://smartgig-ess.infionicone.com");
+	System.out.println("c");
+	x.xpathClick("//input[@id='btnLogIn']", "userName");
+	
+  }
+}

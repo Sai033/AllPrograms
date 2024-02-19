@@ -1,0 +1,51 @@
+package Capcha;
+
+import java.io.File;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
+
+import net.sourceforge.tess4j.ITesseract;
+import net.sourceforge.tess4j.Tesseract;
+
+public class imageCapcha {
+public static void main(String[] args) throws Exception {
+	WebDriver d=new ChromeDriver();
+	/*d.get("https://www.irctc.co.in/nget/train-search");
+	d.findElement(By.xpath("(//i[@class='fa fa-align-justify'])[1]")).click();
+	Thread.sleep(3000);
+	d.findElement(By.xpath("//button[@class='search_btn']")).click();
+	Thread.sleep(2000);
+	WebElement img=d.findElement(By.xpath("//img[@class='captcha-img']"));
+	File src=img.getScreenshotAs(OutputType.FILE);
+	String path="C:\\Users\\smart\\Selenium\\Driver\\Screenshot\\capcha.png";
+	FileHandler.copy(src, new File(path));
+	Thread.sleep(3000);
+	ITesseract imgs=new Tesseract();
+	String str=imgs.doOCR(new File(path));
+	System.out.println(str);
+	Thread.sleep(2000);
+	d.findElement(By.xpath("//input[@id='captcha']")).sendKeys(str);
+	*/
+	d.get("https://www.recruitmentrrb.in/#/auth/landing");
+	d.findElement(By.xpath("(//a[@class='btn proced-btn'])[1]")).click();
+	Thread.sleep(3000);
+	d.findElement(By.xpath("(//a[text()='Already have an account?']")).click();
+	Thread.sleep(2000);
+	WebElement img=d.findElement(By.xpath("//canvas[@id='captcha']"));
+	File src=img.getScreenshotAs(OutputType.FILE);
+	String path="C:\\Users\\smart\\Selenium\\Driver\\Screenshot\\capcha.png";
+	FileHandler.copy(src, new File(path));
+	Thread.sleep(3000);
+	ITesseract imgs=new Tesseract();
+	String str=imgs.doOCR(new File(path));
+	System.out.println(str);
+	Thread.sleep(2000);
+	d.findElement(By.xpath("(//input[@class='form-control ng-untouched ng-pristine ng-valid'])[2]")).sendKeys(str);
+	
+}
+}

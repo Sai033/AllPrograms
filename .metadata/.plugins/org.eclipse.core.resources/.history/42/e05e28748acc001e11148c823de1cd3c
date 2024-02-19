@@ -1,0 +1,19 @@
+package Test;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Methods {
+	static WebDriver d;
+public static WebDriver Browser() {
+	if(d==null) {
+		d=initialize();
+	}
+	return d;
+}
+public static WebDriver initialize() {
+	d=new ChromeDriver();
+	return d;
+	
+}
+}

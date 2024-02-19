@@ -1,0 +1,29 @@
+// DriverUtils.java - The utility class for creating and managing the WebDriver instance
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class DriverUtils {
+    private static WebDriver driver; // Static variable to hold the driver instance
+
+    public static WebDriver getWebDriver() {
+        if (driver == null) {
+            // Create the WebDriver instance if it doesn't exist
+            driver = initializeWebDriver();
+        }
+        return driver;
+    }
+
+    private static WebDriver initializeWebDriver() {
+        // Set the path to the ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+
+        // Set Chrome options if needed
+        ChromeOptions options = new ChromeOptions();
+        // options.addArguments("--headless"); // Example: Run Chrome in headless mode
+
+        // Initialize and return the WebDriver
+        return new ChromeDriver(options);
+    }
+}

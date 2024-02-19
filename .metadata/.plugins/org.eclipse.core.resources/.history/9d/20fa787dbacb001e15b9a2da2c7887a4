@@ -1,0 +1,23 @@
+package Driver;
+//TestClass1.java
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+public class TestClass1 {
+ @Test
+ public void testMethod1() {
+     WebDriver driver = DriverUtils.getWebDriver();
+     // Your test logic using the driver
+ }
+}
+.out.println("a");
+	d=new ChromeDriver();
+	 driver dr=new driver(d);
+	System.out.println("b");
+	d.get("https://smartgig-ess.infionicone.com");
+	System.out.println("c");
+	m.xpath();
+    System.out.println("d");
+  }
+}
